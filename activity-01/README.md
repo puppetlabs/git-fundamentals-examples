@@ -90,3 +90,18 @@ Use one of the installation methods mentioned on [here](https://github.com/githu
    1. Press `i` to be able to start typing.
    2. Craft a commit message that follows the guidance talked about in [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/).
    3. Press `esc` followed by `:wq` to write and quit the editor
+9. Push your work up to GitHub by running `git push -u origin activity-01` in your terminal.
+   - the `-u origin activity-01` part is only needed on your first push. It tells git explicitly where the remote version of your code is.
+10. Go back to your fork of this repository on the GitHub website and click the pull requests heading like the one shown in the middle of the image below:
+
+    ![Screenshot showing pull request heading](Pull-request-heading.png)
+
+11. Click the green "New pull request" button
+12. Below the heading "Comparing changes" there will be a row with four dropdown menus. Click the one on the far right and select `activity-01`. This will show you the difference between your branch and the original repository's main branch.
+13. Review what is shown and then click the green "Create pull request" button.
+14. Review the information on the "Open a pull request" page and then click the green "Create pull request" button.
+15. You should now have an open pull request that shows some tests running in a section near the bottom like this:
+
+    ![Screenshot of tests running on GitHub](Tests-running-on-GitHub.png)
+
+And that's it for this activity. If you are doing this as part of an interactive session then the next step is for us to review all the PRs that have been submitted when we get back together. If you are doing this on your own then you may need to wait for someone to see the PR is open and review it.
